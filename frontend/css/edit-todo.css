@@ -1,0 +1,61 @@
+/* Form Container */
+form {
+    background-color: #333a4a;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    color: #e0e0e0;
+}
+
+/* Label Styling */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+/* Input and Textarea Styling */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #44495a; 
+    border-radius: 6px;
+    background-color: #2b2d42;
+    color: #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #ff6b6b; 
+    outline: none;
+}
+
+/* Button Styling */
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #ff4c4c; 
+    transform: translateY(-2px);
+}
+
+form button:active {
+    transform: translateY(1px);
+}

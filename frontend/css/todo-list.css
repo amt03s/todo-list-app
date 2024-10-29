@@ -1,0 +1,63 @@
+/* Todo List Container */
+#todoList {
+    list-style-type: none;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Todo List Items */
+#todoList li {
+    background-color: #333a4a;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #e0e0e0;
+}
+
+#todoList li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Title Styling */
+#todoList li span {
+    font-weight: bold;
+    color: #ff6b6b;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+/* Description Styling */
+#todoList li p {
+    color: #ccc;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Button Styling */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff4c4c;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
